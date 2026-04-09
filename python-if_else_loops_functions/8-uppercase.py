@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 def isupper(c):
-    return 65 <= ord(c) <= 90
+    if 65 <= ord(c) <= 90:
+        return True
+    return False
