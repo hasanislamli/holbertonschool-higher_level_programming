@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-calc = __import__('calculator_1')
+import calculator_1 as calc
 
 if __name__ == "__main__":
     a = 10
