@@ -1,28 +1,40 @@
-0x06. Python - Classes and Objects
-Description
+# Python Classes (OOP Basics)
 
-This project introduces the basics of classes and objects in Python. It focuses on Object-Oriented Programming concepts such as defining classes and creating instances.
+This project is part of the Holberton School Higher Level Programming curriculum. It introduces the fundamentals of Object-Oriented Programming (OOP) in Python.
 
-Task 0: Square
+## Description
 
-Write an empty class Square that defines a square.
+The main goal of this project is to understand how classes and objects work in Python, and how to design and use them properly.
 
-Requirements
-Do not import any module
-The class must be empty
-Example
+## Concepts Covered
+
+- What is Object-Oriented Programming (OOP)
+- Classes and objects
+- Attributes (instance vs class)
+- Methods and the use of `self`
+- The `__init__` method (constructor)
+- Data abstraction and encapsulation
+- Public, protected, and private attributes
+- Properties, getters, and setters
+- Dynamic attribute creation
+- The `__dict__` attribute
+- Attribute lookup in Python
+
+## Requirements
+
+- Python 3 (Ubuntu 20.04 LTS, version 3.8.5)
+- All files must start with:
 #!/usr/bin/python3
-Square = __import__('0-square').Square
+- All files must be executable
+- All files must end with a new line
+- Code must follow `pycodestyle` (version 2.7.*)
+- No external modules unless specified
+- Every module, class, and function must have a proper docstring
 
-my_square = Square()
-print(type(my_square))
-print(my_square.__dict__)
-Expected Output
+## Structure
 
-<class '0-square.Square'>
-{}
-
-Usage
-
-Run the script:
-./0-square.py
+Each task focuses on a specific OOP concept:
+- Creating classes
+- Adding attributes
+- Implementing methods
+- Using encapsulatiion
